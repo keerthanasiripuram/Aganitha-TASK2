@@ -1,0 +1,148 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  line-height: 1.6;
+  padding: 0 2rem;
+}
+
+/* Header Styling */
+header {
+  background-color: #004a7c;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.breadcrumb p {
+  margin: 0 0.5rem;
+}
+
+/* Introduction Section */
+.introduction {
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
+
+.introduction p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* First Section */
+.first-section {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.first-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #004a7c;
+}
+
+.first-section p {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.first-section ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.first-section ul li {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Second Section */
+.second-section {
+  margin-top: 3rem;
+}
+
+.second-section h2 {
+  font-size: 2rem;
+  color: #004a7c;
+  margin-bottom: 1.5rem;
+}
+
+.second-section p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.second-section ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.second-section ul li {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .breadcrumb p {
+    font-size: 0.875rem;
+  }
+
+  .introduction p, .first-section p, .second-section p {
+    font-size: 1rem;
+  }
+
+  .first-section, .second-section {
+    padding: 1rem;
+  }
+
+  .first-section ul, .second-section ul {
+    padding-left: 1.5rem;
+  }
+}
